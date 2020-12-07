@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="25dp"
+        android:textColor="#D32F2F"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+    <EditText
+        android:id="@+id/editext_name"
+        android:layout_margin="20dp"
+        android:hint="Enter Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editext_email"
+        android:layout_margin="20dp"
+        android:hint="Enter Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/button_save"
+        android:textColor="#fff"
+        android:background="#03A9CA"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
